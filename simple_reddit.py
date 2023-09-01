@@ -12,7 +12,7 @@ a = input("name:")
 y = input("Age:")
 z = input("Sex:")
 
-with open("c19.txt", "w") as x:
+# with open("c19.txt", "w") as x:
 print("**Notice 1 mean yes, 0 mean no.** ")
 
 def sum(Q1, Q2, Q3, Q4, Q5, Q6, Q7, Q8, Q9):  
@@ -26,7 +26,7 @@ x.close()
  elif q > 5:  
 x = open("c19.txt", "w")  
 x.write("name: " + a + "\\n" + "Age: " + y + "\\n""Sex: " + z + "\\n")  
-x.write("Result:\\t"+"he/she must do covid-19 test, Mybe he/she infected by covid-19.")  
+x.write("Result:\\t"+"he/she must do covid-19 test, Maybe he/she infected by covid-19.")  
 x.close()  
  elif q < 3:  
 x = open("c19.txt", "w")  
