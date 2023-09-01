@@ -18,11 +18,11 @@ jobs:
     - run: codespell --ignore-words-list="alph,ans,nd"  # --skip="*.css,*.js,*.lock,*.po"
     - run: ruff --exit-zero --select=ALL --statistics --target-version=py38 . | sort -k2
     - run: ruff --format=github --select=E9,F63,F7 --target-version=py38
-                --exclude=adder_reddit.py,adventure-text.py,horoscope.py,reddit_dict_iter_tester,reddit_pconfig.py,reddit_spn.py,reddit_tax.py,reddit_test_multiline_add.py .
+                --exclude=adder_reddit.py,adventure-text.py,horoscope.py,reddit_dict_iter_tester.py,reddit_pconfig.py,reddit_spn.py,reddit_tax.py,reddit_test_multiline_add.py,simple_reddit.py .
     - run: ruff --format=github --select=E9,F63,F7,F82 --target-version=py38 \
-                --exclude=adder_reddit.py,adventure-text.py,horoscope.py,reddit_dict_iter_tester,reddit_pconfig.py,reddit_spn.py,reddit_tax.py,reddit_test_multiline_add.py .
+                --exclude=adder_reddit.py,adventure-text.py,horoscope.py,reddit_dict_iter_tester.py,reddit_pconfig.py,reddit_spn.py,reddit_tax.py,reddit_test_multiline_add.py,simple_reddit.py .
     - run: ruff --format=github --line-length=200 --target-version=py38
-                --exclude=adder_reddit.py,adventure-text.py,horoscope.py,reddit_dict_iter_tester,reddit_pconfig.py,reddit_spn.py,reddit_tax.py,reddit_test_multiline_add.py .
+                --exclude=adder_reddit.py,adventure-text.py,horoscope.py,reddit_dict_iter_tester.py,reddit_pconfig.py,reddit_spn.py,reddit_tax.py,reddit_test_multiline_add.py,simple_reddit.py .
     - run: ruff --format=github --target-version=py38
-                --exclude=adder_reddit.py,adventure-text.py,horoscope.py,reddit_dict_iter_tester,reddit_pconfig.py,reddit_spn.py,reddit_tax.py,reddit_test_multiline_add.py .
+                --exclude=adder_reddit.py,adventure-text.py,horoscope.py,reddit_dict_iter_tester.py,reddit_pconfig.py,reddit_spn.py,reddit_tax.py,reddit_test_multiline_add.py,simple_reddit.py .
 
