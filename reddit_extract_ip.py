@@ -131,7 +131,7 @@ def get_ips(text):
 """
 (help) How could be the best way to extract the ip in this case?
 
-Hey I am trying to learn, so I decide to creat a scrip that connect into some routers and get the ip address, at the moment I am able to get this
+Hey I am trying to learn, so I decide to create a script that connect into some routers and get the ip address, at the moment I am able to get this
 
 interface FastEthernet0/0
 
@@ -155,7 +155,7 @@ I tried to slip the lines  but I still get this:
 
 &#x200B;
 
-any ideia please ? I bellow I leave this function:
+any ideia please ? I below I leave this function:
 
 `def create_connection(my_device2):`  
 `net_conn = ConnectHandler(**my_device2)`  
