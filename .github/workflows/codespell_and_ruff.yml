@@ -6,7 +6,7 @@
 name: codespell_and_ruff
 on:
   push:
-  #  branches: [main]
+    branches: [main]
   pull_request:
     branches: [main]
 jobs:
